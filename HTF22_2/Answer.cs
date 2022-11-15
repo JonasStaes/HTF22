@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HTF22_2 {
 
-    public struct Wizard {
+    public class Wizard {
         public int strength { get; set; }
         public int speed { get; set; }
         public int health { get; set; }
@@ -16,7 +16,7 @@ namespace HTF22_2 {
         }
     }
 
-    public struct Teams {
+    public class Teams {
         public List<Wizard> teamA { get; set; }
         public List<Wizard> teamB { get; set; }
 
@@ -60,6 +60,7 @@ namespace HTF22_2 {
                     }
                 }
 
+                //clean up dead wizards
                 teamA.RemoveAll(w => w.health <= 0);
                 teamB.RemoveAll(w => w.health <= 0);
             }

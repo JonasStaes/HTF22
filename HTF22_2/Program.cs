@@ -25,16 +25,14 @@ var startUrl = "api/path/1/medium/Start";
 // Krijg je een 403 Forbidden response op je Sample of Puzzle calls? Dat betekent dat de challenge niet gestart is
 var startResponse = await client.GetAsync(startUrl);
 
-// De url om de sample challenge data op te halen
+/*// De url om de sample challenge data op te halen
 var sampleUrl = "api/path/1/medium/Sample";
 
 // We doen de GET request en wachten op de het antwoord
 // De response die we verwachten is een lijst van getallen dus gebruiken we List<int>
 var sampleGetResponse = await client.GetFromJsonAsync<Teams>(sampleUrl);
-Console.WriteLine(sampleGetResponse);
-Console.WriteLine(Answer.GetAnswer(sampleGetResponse));
 
-/*// Je zoekt het antwoord
+// Je zoekt het antwoord
 var sampleAnswer = Answer.GetAnswer(sampleGetResponse);
 
 // We sturen het antwoord met een POST request
@@ -46,11 +44,11 @@ var samplePostResponse = await client.PostAsJsonAsync<string>(sampleUrl, sampleA
 // Een 200 status code betekent dus niet dat je antwoord juist was!
 var samplePostResponseValue = await samplePostResponse.Content.ReadAsStringAsync();*/
 
-/*// De url om de puzzle challenge data op te halen
+// De url om de puzzle challenge data op te halen
 var puzzleUrl = "api/path/1/medium/Puzzle";
 // We doen de GET request en wachten op de het antwoord
 // De response die we verwachten is een lijst van getallen dus gebruiken we List<int>
-var puzzleGetResponse = await client.GetFromJsonAsync<List<string>>(puzzleUrl);
+var puzzleGetResponse = await client.GetFromJsonAsync<Teams>(puzzleUrl);
 
 // Je zoekt het antwoord
 var puzzleAnswer = Answer.GetAnswer(puzzleGetResponse);
@@ -63,4 +61,4 @@ var puzzlePostResponse = await client.PostAsJsonAsync<string>(puzzleUrl, puzzleA
 // Om te zien of ons antwoord juist was moeten we de response uitlezen
 // Een 200 status code betekent dus niet dat je antwoord juist was!
 var puzzlePostResponseValue = await puzzlePostResponse.Content.ReadAsStringAsync();
-Console.WriteLine(puzzlePostResponseValue);*/
+Console.WriteLine(puzzlePostResponseValue);
