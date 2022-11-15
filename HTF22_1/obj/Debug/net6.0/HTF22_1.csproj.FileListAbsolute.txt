@@ -1,0 +1,15 @@
+C:\Users\jonas\source\repos\HTF22\HTF22_1\bin\Debug\net6.0\HTF22_1.exe
+C:\Users\jonas\source\repos\HTF22\HTF22_1\bin\Debug\net6.0\HTF22_1.deps.json
+C:\Users\jonas\source\repos\HTF22\HTF22_1\bin\Debug\net6.0\HTF22_1.runtimeconfig.json
+C:\Users\jonas\source\repos\HTF22\HTF22_1\bin\Debug\net6.0\HTF22_1.dll
+C:\Users\jonas\source\repos\HTF22\HTF22_1\bin\Debug\net6.0\HTF22_1.pdb
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.csproj.AssemblyReference.cache
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.AssemblyInfoInputs.cache
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.AssemblyInfo.cs
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.csproj.CoreCompileInputs.cache
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.dll
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\refint\HTF22_1.dll
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.pdb
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\HTF22_1.genruntimeconfig.cache
+C:\Users\jonas\source\repos\HTF22\HTF22_1\obj\Debug\net6.0\ref\HTF22_1.dll
