@@ -27,7 +27,6 @@ namespace HTF22_3 {
         public async static Task GetAnswer(Response response, string url, HttpClient client) {
 
             bool foundArtifact = response.finished;
-            int room = response.roomNr;
             List<int> correctChoices = new List<int>();
 
             while(!foundArtifact) {
@@ -41,7 +40,6 @@ namespace HTF22_3 {
                 if(response.roomNr != 1) {
                     //we zijn verder gegaan, dus we hebben een goede keuze gemaakt
                     correctChoices.Add(door);
-                    room = response.roomNr;
                     foundArtifact = response.finished;
 
                     if(foundArtifact) {
